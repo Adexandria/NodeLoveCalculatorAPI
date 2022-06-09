@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-let app = express();
+const app = express();
 
 // add body-parser middleware
 app.use(bodyParser.json());
